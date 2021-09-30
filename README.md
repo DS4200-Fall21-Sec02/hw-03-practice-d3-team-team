@@ -1,12 +1,12 @@
 # Practice D3
 
-This repository is your starting point for Task 3 in hw-03. Assignment details and instructions are below. 
+This repository is your starting point for Task 3 in hw-03. Assignment details and instructions are below.
 
-Link to your GitHub pages website: `[insert your *clickable* hyperlink here]`
+Link to your GitHub pages website: `https://github.com/DS4200-Fall21-Sec02/hw-03-practice-d3-team-team`
 
 # Aim of the assignment
 
-The purpose of this assignment is to practice making D3 charts. You will create two custom carts: a bar chart and a line chart. 
+The purpose of this assignment is to practice making D3 charts. You will create two custom carts: a bar chart and a line chart.
 
 # Instructions
 Please look through **all** the materials below before starting. This will ensure you understand the setup instructions; how to run, organize, and submit your code; and requirements for the visualizations you build.
@@ -20,14 +20,14 @@ You should do all your edits locally after cloning this repository. Commit major
 
 1. In order to read data from csv files, you will need to use a python simple server. To do that follow these steps:
    - `CD` or open a terminal / command prompt window into the folder you cloned above.
-   - Start a python simple server from that folder with one of these commands (depending on how you set python up on your machine): `python -m http.server`, `python3 -m http.server`, or `py -m http.server`. 
+   - Start a python simple server from that folder with one of these commands (depending on how you set python up on your machine): `python -m http.server`, `python3 -m http.server`, or `py -m http.server`.
    - If you are using python 2 you will need to use `python -m SimpleHTTPServer` instead, but please switch to python 3 as [Python 2 was sunset on 2020-01-01](https://www.python.org/doc/sunset-python-2/).
    - After running the command, wait for the output: `Serving HTTP on 0.0.0.0 port 8000 (http://0.0.0.0:8000/)`.
-   - Open your web browser (Firefox or Chrome) and navigate to the URL: http://localhost:8000. This is where you will see your code rendered. 
+   - Open your web browser (Firefox or Chrome) and navigate to the URL: http://localhost:8000. This is where you will see your code rendered.
 
 ## Update hyperlinks
 
-1. Edit near the top of this `README.md` file to include a clickable hyperlink to the GitHub pages website for your repo. Replace `` `[insert your *clickable* hyperlink here]` `` with your clickable URL. 
+1. Edit near the top of this `README.md` file to include a clickable hyperlink to the GitHub pages website for your repo. Replace `` `[insert your *clickable* hyperlink here]` `` with your clickable URL.
 
 1. In `index.html` update the GitHub repo URL with the URL of your repository. It is in the span with `id='forkongithub'`.
 
@@ -65,15 +65,15 @@ You must implement your web page following these requirements:
 
 * **Type**: One of the two visualizations you create has to be a grouped bar chart, and the other has to be a scatter plot.
 
-* **Data**: For this assignment, we would like you to find and select your own data. It can be related to your research, a subject of interest, a hobby, etc. **Please submit a copy of the raw data in your repository in the `data` folder.** Note: You may want to use different datasets for your grouped bar char and line chart; that is okay, just be sure to include both datasets in your submission. 
+* **Data**: For this assignment, we would like you to find and select your own data. It can be related to your research, a subject of interest, a hobby, etc. **Please submit a copy of the raw data in your repository in the `data` folder.** Note: You may want to use different datasets for your grouped bar char and line chart; that is okay, just be sure to include both datasets in your submission.
 
 * **Color**: Both plots must include color as a channel to encode some data.
 
-* **Interaction**: At minimum, one of your two plots should have a "details on demand" interaction, i.e., mouseover or click on bar/point to retrieve and display its value. Otherwise, your visualizations may be static. 
+* **Interaction**: At minimum, one of your two plots should have a "details on demand" interaction, i.e., mouseover or click on bar/point to retrieve and display its value. Otherwise, your visualizations may be static.
 
-* **Design**: Make sure your plots follow the design guidelines and rules of thumb discussed in lectures and readings. 
+* **Design**: Make sure your plots follow the design guidelines and rules of thumb discussed in lectures and readings.
 
-* **Code comments**: Add concise comments to your code to demonstrate your understanding of how the code works. We are not looking for paragraphs, but little to no commenting will gain little to no points. 
+* **Code comments**: Add concise comments to your code to demonstrate your understanding of how the code works. We are not looking for paragraphs, but little to no commenting will gain little to no points.
 
 * **Writing**: Please include on your web page answers to the following questions for each visualization (a few sentences for each is sufficient):
 
