@@ -6,7 +6,8 @@
   <meta charset='utf-8'>
   <!-- Title -->
   <title>hw-03: Practicing D3</title>
-
+  <script src="lib\d3.v6.1.1\d3.js" charset="utf-8"></script>
+  <script src="lib\\d3.v6.1.1\d3.min.js" charset="utf-8"></script>
   <!-- CSS Styling -->
   <link rel='stylesheet' href='style.css'>
 
@@ -54,13 +55,42 @@
     <!-- Visualization goes here -->
     <div class='vis-holder' id='vis1'></div>
 
-	  <p>
+    <p>
       Your second visualization goes here:
     </p>
 
     <!-- Visualization goes here -->
     <div class='vis-holder' id='vis2'></div>
+    <h2>Dexcriptive Prose:</h2>
+    <p>
+      1. The dataset that we choose was regarding the total number of covid-19
+      cases and deaths in countries all around the world, however to be able to
+      not overcrowd the graphs we choose the top 40 highest covid-19 cases. The dataset
+      provides details regarding the country, covid-19 cases, covid-19 deaths and region
+      specific to the country.
+      <a href='https://www.worldometers.info/coronavirus/countries-where-coronavirus-has-spread/'>Countries where COVID-19 has spread</a>
+      <br>
+      2. The bar chart is an appropriate visual encoding for the first visualization
+      because the x-value which is country is a categorical data and the y-value
+      for covid-19 cases are quantitative, so it makes sense to create a barchart
+      to illustrate this. However, while the second visualization is a line chart and
+      shouldn't have used an categorical value for the x-axis, we felt that
+      showing both the covid-19 death cases and covid-19 cases on this dataset
+      provided an insightful outlook that the death resulting from the virus wasn't
+      that significant.
+      <br>
+      3. The colormap that we used for the two vizualization are static, because
+      we wanted our viewers to have a clean and simple design that reveals the stark
+      impact covid-19 had on our world.
+      <br>
+      4. The designs that we choose are mostly simple designs as we wanted to
+      provide overview first of the impact covid-19 had on these 40 countries. We
+      choose the color red for the cases since red is closely related to danger, which symbolizes
+      how dangerous Covid-19 was. On the second visuzalition, we choose the color
+      black to represent the death caused by the Coronavirus, because black is the
+      color that we normally wear when mourn the dead.
 
+    </p>
     <h2>Acknowledgments</h2>
 
     <p>
@@ -79,11 +109,14 @@
       <li><a href='https://github.com/NEU-DS-4200-F20-Staff/Assignment--D3_Basic_Charts'>
         Assignment--D3_Basic_Charts</a>
         by Cody Dunne is used to create this assignment.
-      </li>
+      <li><a href='https://www.d3-graph-gallery.com/graph/barplot_basic.html'>
+        Most basic barplot in d3.js</a>
+      <li><a href='https://observablehq.com/@ahmedhammeda/how-to-create-a-zoomable-and-animated-bar-chart-with-d3-js'>
+        How to create a zoomable and animated Bar Chart with d3.js</a>
+      <li><a href='https://stackoverflow.com/questions/11189284/d3-axis-labeling'>
+        How to create a zoomable and animated Bar Chart with d3.js</a>        
     </ul>
   </div>
-  <script src="lib\d3.v6.1.1\d3.js" charset="utf-8"></script>
-  <script src="lib\d3.v6.1.1\d3.min.js" charset="utf-8"></script>
   <script src="js\main.js"></script>
   <!-- Scripts at the end avoid need for dealing with async, defer, or onload event handlers -->
 </body>
